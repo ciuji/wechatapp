@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class = "container">
+    <view class ="top">
+        <view>{{"当前时间："+time}}</view>
+    </view>
+    <view class ="body">
+        <view id ="temperature">{{bus}}</view>
+        <view id="summary">{{bus2}}</view>
+    </view>
+</view>
+<view id="box-subway" class="bus-item">
+    <view class="bus-item-text-lg"><img class="box-subway-icon" src="subway.svg" alt="地铁" /> <span>或许你可以坐地铁</span></view>
+    <view id="box-subway-summary" class="bus-item-text-sm">现在出发，一个小时能到</view>
+</view>
+<view class="text-disclaimer"> 班车安排仅供参考，请以实际情况为准</view>
+<view class="footer">
+    <view id="footer-contact" >如果你有什么建议 mail-to:  zuochaoji@foxmail.com</view>
+</view>

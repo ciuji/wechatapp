@@ -1,0 +1,90 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-size: 100%;
+  padding: 20rpx;
+} 
+
+.top {
+	background: #aaa;
+	color: #FFF;
+	/*border: 1rpx solid #000;*/
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.body{
+	background: #FFF;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 8px;
+	border-radius: 3px;
+	position:relative;
+	box-sizing: border-box;
+
+}
+.text-disclaimer{
+	text-align: center;
+	color: #999;
+	font-size: 15px;
+	margin: 2em 0 1em 0;
+}
+.footer{
+	color: #999;
+	font-size: 15px;
+	padding-bottom: 1em;
+}
+.box-subway-icon{
+	height: 0.8em;
+	width: 0.8em;
+	margin-right: 0.2em;
+}
+.bus-item.past {
+	background: #DDD;
+}
+
+.bus-noresult{
+	margin: 1em 0 1em 0;
+}
+
+.bus-item-text-lg{
+	margin-top: 8px;
+	margin-left: 5px;
+	font-size: 25px;
+}
+
+.bus-item-text-sm{
+	/*font-size: 14px;*/
+	margin-top: 0.5em;
+	margin-left: 5px;
+	margin-bottom: 8px;
+	line-height: 1.5em;
+}
+
+.bus-item-stops{
+	display: flex;
+	align-items:center;
+}
+
+.bus-item-stopitem{
+	display: flex;
+	align-items: center;
+}
+.bus-item {
+	background: #FFF;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 8px;
+	border-radius: 3px;
+	position:relative;
+	box-sizing: border-box;
+}
